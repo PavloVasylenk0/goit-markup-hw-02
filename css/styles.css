@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #FFF;
+  color: #434455;
+  background-color: #FFFFFF;
 }
 
 ul {
@@ -12,16 +13,21 @@ a {
 }
 
 .header-logo {
-  color: #2e2f42;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: 'Raleway';
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.header-logo-color {
-  color: #4d5ae5;
+.header-logo span {
+color: #2E2F42;
+}
+
+.header-address {
+font-style: normal;
+color:  #434455;
 }
 
 .header-menu-link {
@@ -29,7 +35,8 @@ a {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
+  
 }
 .header-contact {
   color: #434455;
@@ -43,7 +50,11 @@ a {
   background: #2e2f42;
 }
 
-========== .solution-logo {
+========== 
+
+
+
+.solution-logo {
   color: #fff;
   text-align: center;
   font-size: 56px;
@@ -61,6 +72,7 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 ======== .offer {
@@ -68,11 +80,7 @@ a {
 
 .visually-hidden {
   position: absolute;
-  width: 1px;
-  height: 1px;
   margin: -1px;
-  border: 0;
-  padding: 0;
 
   white-space: nowrap;
   clip-path: inset(100%);
@@ -145,7 +153,11 @@ a {
 .team-picture {
 }
 
-=========== .portfolio {
+=========== 
+
+
+.portfolio {
+    background-color: #F4F4FD;
 }
 
 .portfolio-title {
@@ -153,18 +165,20 @@ a {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
 .portfolio-list {
+    background-color: #FFFFFF;
 }
 
 .portfolio-item {
 }
 
 .portfolio-picture {
+    width: 360;
 }
 
 .portfolio-subtitle {
@@ -183,7 +197,18 @@ a {
   letter-spacing: 0.02em;
 }
 
-=========== .footer-logo {
+
+
+
+=========== 
+
+
+
+
+
+
+
+.footer-logo {
   color: #f4f4fd;
   font-family: Raleway;
   font-size: 18px;

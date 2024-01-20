@@ -14,7 +14,7 @@ a {
 
 .header-logo {
   color: #4d5ae5;
-  font-family: 'Raleway';
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -53,15 +53,15 @@ color:  #434455;
 ========== 
 
 
-
 .solution-logo {
-  color: #fff;
+  color: #fffff;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
+
 
 .solution-btn {
   border-radius: 4px;
@@ -110,7 +110,13 @@ color:  #434455;
   letter-spacing: 0.02em;
 }
 
-========== .team {
+========== 
+
+
+
+
+.team {
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -118,7 +124,7 @@ color:  #434455;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -158,6 +164,7 @@ color:  #434455;
 
 .portfolio {
     background-color: #F4F4FD;
+
 }
 
 .portfolio-title {
@@ -178,7 +185,6 @@ color:  #434455;
 }
 
 .portfolio-picture {
-    width: 360;
 }
 
 .portfolio-subtitle {
@@ -209,8 +215,8 @@ color:  #434455;
 
 
 .footer-logo {
-  color: #f4f4fd;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -220,7 +226,7 @@ color:  #434455;
 }
 
 .footer-logo span {
-  color: #4d5ae5;
+  color: #F4F4FD;
 }
 
 .footer-text {

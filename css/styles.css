@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 ul {
@@ -22,12 +22,12 @@ a {
   text-transform: uppercase;
 }
 .header-logo span {
-color: #2E2F42;
+  color: #2e2f42;
 }
 
 .header-address {
-font-style: normal;
-color:  #434455;
+  font-style: normal;
+  color: #434455;
 }
 
 .header-menu-link {
@@ -36,20 +36,12 @@ color:  #434455;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  
 }
 
-.header-menu-link:hover {
-    color: #404bbf;
+.header-menu-link .link:hover,
+.header-menu-link .link:focus {
+  color: #404bbf;
 }
-
-.header-menu-link:focus {
-    color: #404bbf;
-}
-
-
-
-
 
 .header-contact {
   color: #434455;
@@ -59,27 +51,24 @@ color:  #434455;
   letter-spacing: 0.02em;
 }
 
-
 .header-contact-link {
-    color: #434455;
+  color: #434455;
 }
 
-.header-contact-link:hover {
-color: #404bbf;
+.header-contact-link .link:hover,
+.header-contact-link .link:focus {
+  color: #404bbf;
 }
 
 
-.header-contact-link:focus {
-    color: #404bbf;
-}
 
-===============
+
+
 
 
 .solution {
-  background-color: #2e2f42;
+background-color: var(--NAVY-BLUE, #2E2F42);
 }
-
 
 
 
@@ -91,7 +80,6 @@ h1 {
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
-
 
 .solution-btn {
   border-radius: 4px;
@@ -106,19 +94,14 @@ h1 {
 }
 
 .solution-btn:hover {
-    background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .solution-btn:focus {
-    background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 
-
-
-
-
-======== 
 
 
 
@@ -126,7 +109,7 @@ h1 {
 
 
 .offer {
-    background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 
 .visually-hidden {
@@ -140,7 +123,7 @@ h1 {
 }
 
 .offer-list {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .offer-item {
@@ -162,13 +145,18 @@ h1 {
   letter-spacing: 0.02em;
 }
 
-========== 
+
+
+
+
+
+
 
 
 
 
 .team {
-background-color:#F4F4FD;
+  background-color: #f4f4fd;
 }
 
 .team-title {
@@ -182,11 +170,11 @@ background-color:#F4F4FD;
 }
 
 .team-list {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .team-item {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .team-titles {
@@ -213,12 +201,21 @@ background-color:#F4F4FD;
 .team-picture {
 }
 
-=========== 
+
+
+
+
+
+
+
+
+
+
+
 
 
 .portfolio {
-    background-color: #F4F4FD;
-
+  background-color: #f4f4fd;
 }
 
 .portfolio-title {
@@ -232,7 +229,7 @@ background-color:#F4F4FD;
 }
 
 .portfolio-list {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .portfolio-item {
@@ -260,7 +257,9 @@ background-color:#F4F4FD;
 
 
 
-=========== 
+
+
+
 
 
 
@@ -269,7 +268,7 @@ background-color:#F4F4FD;
 
 
 .footer-logo {
-  color: var(--IRIS, #4D5AE5);
+  color: var(--IRIS, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -279,7 +278,7 @@ background-color:#F4F4FD;
 }
 
 .footer-logo-span {
-  color: #F4F4FD;
+  color: #f4f4fd;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;

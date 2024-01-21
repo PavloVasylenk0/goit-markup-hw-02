@@ -38,6 +38,19 @@ color:  #434455;
   letter-spacing: 0.02em;
   
 }
+
+.header-menu-link:hover {
+    color: #404bbf;
+}
+
+.header-menu-link:active {
+    color: #404bbf;
+}
+
+
+
+
+
 .header-contact {
   color: #434455;
   font-size: 16px;
@@ -46,15 +59,32 @@ color:  #434455;
   letter-spacing: 0.02em;
 }
 
+
+.header-contact-link {
+    color: #434455;
+}
+
+.header-contact-link:hover {
+color: #404bbf;
+}
+
+
+.header-contact-link:active {
+    color: #404bbf;
+}
+
+===============
+
+
 .solution {
   background: #2e2f42;
 }
 
-========== 
+
 
 
 .solution-logo {
-  color: #fffff;
+  color: #ffffff;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -75,7 +105,30 @@ color:  #434455;
   cursor: pointer;
 }
 
-======== .offer {
+.solution-btn:hover {
+    background-color: #404BBF;
+}
+
+.solution-btn:active {
+    background-color: #404BBF;
+}
+
+
+
+
+
+
+
+
+
+
+
+======== 
+
+
+
+.offer {
+    background-color: #F4F4FD;
 }
 
 .visually-hidden {
@@ -89,6 +142,7 @@ color:  #434455;
 }
 
 .offer-list {
+    background-color: #FFFFFF;
 }
 
 .offer-item {

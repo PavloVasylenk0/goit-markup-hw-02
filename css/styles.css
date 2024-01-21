@@ -43,7 +43,7 @@ color:  #434455;
     color: #404bbf;
 }
 
-.header-menu-link:active {
+.header-menu-link:focus {
     color: #404bbf;
 }
 
@@ -69,7 +69,7 @@ color: #404bbf;
 }
 
 
-.header-contact-link:active {
+.header-contact-link:focus {
     color: #404bbf;
 }
 
@@ -77,7 +77,7 @@ color: #404bbf;
 
 
 .solution {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 
 
@@ -109,7 +109,7 @@ h1 {
     background-color: #404BBF;
 }
 
-.solution-btn:active {
+.solution-btn:focus {
     background-color: #404BBF;
 }
 
@@ -118,12 +118,10 @@ h1 {
 
 
 
-
-
-
-
-
 ======== 
+
+
+
 
 
 
@@ -170,7 +168,7 @@ h1 {
 
 
 .team {
-background: var(--CLOUD, #F4F4FD);
+background-color:#F4F4FD;
 }
 
 .team-title {
@@ -188,6 +186,7 @@ background: var(--CLOUD, #F4F4FD);
 }
 
 .team-item {
+    background-color: #FFFFFF;
 }
 
 .team-titles {
@@ -270,12 +269,13 @@ background: var(--CLOUD, #F4F4FD);
 
 
 .footer-logo {
-color: #4D5AE;
-font-family: Raleway;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.16;
-letter-spacing: 0.03em;
+  color: var(--IRIS, #4D5AE5);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .footer-logo-span {

@@ -135,7 +135,6 @@ letter-spacing: 0.02em;
 
 .solution-btn {
   background: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
@@ -163,14 +162,7 @@ letter-spacing: 0.02em;
   background-color: #f4f4fd;
 }
 
-.visually-hidden {
-  margin: -1px;
 
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 
 .offer-list {
   background-color: #ffffff;
@@ -354,3 +346,20 @@ letter-spacing: 0.02em;
 
 
 
+.visually-hidden {
+ 
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+ box-sizing, display, align-items, padding, flex-direction, gap, border-radius, box-shadow, order, flex-grow, border-bottom

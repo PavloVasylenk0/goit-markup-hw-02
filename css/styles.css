@@ -58,19 +58,15 @@ letter-spacing: 0.02em;
 }
 
 
-.header-menu-lin .link {
-    color:#2E2F42;
-}
 
 
-.header-menu-lin .link:hover {
+
+.header-menu-lin:hover, .header-menu-lin:focus {
     color: #404bbf;
 }
 
 
-.header-menu-lin .link:focus {
-    color: #404bbf;
-}
+
 
 
 .header-contact {

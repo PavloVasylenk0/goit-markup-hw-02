@@ -98,17 +98,10 @@ letter-spacing: 0.02em;
 }
 
 
-.header-contact-lin .link {
-    color: #434455;
-}
 
 
-.header-contact-lin .link:hover {
-    color: #404bbf;
-}
-
-
-.header-contact-lin .link:focus {
+.header-contact-lin:hover,
+.header-contact-lin:focus {
     color: #404bbf;
 }
 
@@ -171,7 +164,6 @@ letter-spacing: 0.02em;
 }
 
 .visually-hidden {
-  position: absolute;
   margin: -1px;
 
   white-space: nowrap;

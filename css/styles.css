@@ -22,10 +22,10 @@ a {
 
 .header-logo {
     color:#4D5AE5;
-font-family: Raleway;
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
@@ -44,9 +44,8 @@ text-transform: uppercase;
 }
 
 
-.header-menu-lin .link {
+.header-menu-lin {
     color:#2E2F42;
-font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
@@ -82,7 +81,7 @@ letter-spacing: 0.02em;
 }
 
 
-.header-contact-lin .link {
+.header-contact-lin {
     color: #434455;
 font-size: 16px;
 font-style: normal;

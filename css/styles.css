@@ -44,7 +44,7 @@ text-transform: uppercase;
 }
 
 
-.header-menu-lin .link{
+.header-menu-lin .link {
     color:#2E2F42;
 font-family: Roboto;
 font-size: 16px;
@@ -54,7 +54,12 @@ letter-spacing: 0.02em;
 }
 
 
-.header-menu-lin .link:hover, .header-menu-lin .link:focus {
+.header-menu-lin .link:hover {
+    color: #404bbf;
+}
+
+
+.header-menu-lin .link:focus {
     color: #404bbf;
 }
 
@@ -77,7 +82,7 @@ letter-spacing: 0.02em;
 }
 
 
-.header-contact-lin .link{
+.header-contact-lin .link {
     color: #434455;
 font-size: 16px;
 font-style: normal;
@@ -87,10 +92,14 @@ letter-spacing: 0.02em;
 }
 
 
-.header-contact-lin .link:hover, .header-contact-lin .link:focus {
+.header-contact-lin .link:hover {
     color: #404bbf;
 }
 
+
+.header-contact-lin .link:focus {
+    color: #404bbf;
+}
 
 
 
@@ -342,5 +351,3 @@ letter-spacing: 0.02em;
 
 
 
-
- , border-radius

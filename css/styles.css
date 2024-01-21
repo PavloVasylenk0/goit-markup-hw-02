@@ -53,37 +53,45 @@ a {
   color: #404bbf;
 }
 
-
-
-
 .header-contact {
+
+}
+
+
+.header-contact-list {
+
+}
+
+
+
+.header-contact-lin {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.header-contact-link {
-  color: #434455;
+  font-style: normal
 }
 
 
 
 
-.header-contact-lin .link {
-  color: #434455;
-}
+
+
 
 
 .header-contact-item {
 
 }
 
+.header-contact-lin .link {
+  color: #434455;
+}
 
 
-
-.header-contact-lin .link:hover,
+.header-contact-lin .link:hover {
+      color: #404bbf;
+}
 .header-contact-lin .link:focus {
   color: #404bbf;
 }

@@ -38,10 +38,23 @@ a {
   letter-spacing: 0.02em;
 }
 
-.header-menu-link .link:hover,
-.header-menu-link .link:focus {
+
+
+.header-menu-lin {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-menu-lin .link:hover,
+.header-menu-lin .link:focus {
   color: #404bbf;
 }
+
+
+
 
 .header-contact {
   color: #434455;
@@ -55,8 +68,23 @@ a {
   color: #434455;
 }
 
-.header-contact-link .link:hover,
-.header-contact-link .link:focus {
+
+
+
+.header-contact-link {
+  color: #434455;
+}
+
+
+.header-contact-item {
+
+}
+
+
+
+
+.header-contact-lin .link:hover,
+.header-contact-lin .link:focus {
   color: #404bbf;
 }
 
@@ -72,7 +100,7 @@ background-color: var(--NAVY-BLUE, #2E2F42);
 
 
 
-h1 {
+.solution-title {
   color: #ffffff;
   text-align: center;
   font-size: 56px;
@@ -272,7 +300,7 @@ h1 {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
